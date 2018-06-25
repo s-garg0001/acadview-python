@@ -33,14 +33,14 @@ class Cop():
         print("workexperience=:" + self.w)
         print("designation:" + self.d)
     def update(self,name,age,workexperience,designation):
-        self.z=name
-        self.x=age
-        self.c=workexperience
-        self.b=designation
-        print("name=:"+self.z)
-        print("age=:"+self.x)
-        print("work=:"+self.c)
-        print("designation:"+self.b)
+        self.e=name
+        self.f=age
+        self.g=workexperience
+        self.h=designation
+        print("name=:"+self.e)
+        print("age=:"+self.f)
+        print("work=:"+self.g)
+        print("designation:"+self.h)
 class Mission(Cop):
     print("details are below:")
 m=Mission("Shubham",str(20),"for indian army","with no experience","indian army")
@@ -50,7 +50,7 @@ m.update("Shubham",str(21),"for air force","7 missions","air force")
 #end
 
 
-#5. Create a class Shape.Initialize it with length and breadth Create the method Area.
+#4. Create a class Shape.Initialize it with length and breadth Create the method Area.
 # Create class rectangle and square which inherits shape and access the method Area
 class Shape():
     def __init__(self,length,breadth):
